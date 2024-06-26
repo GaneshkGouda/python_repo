@@ -28,7 +28,7 @@ def checkWin(xState, zState):
             return 0
     return -1
 
-if _name_ == "main":
+if _name_ == "__main__":
     xState = [0, 1, 2, 0, 0, 0, 0, 0, 0]
     zState = [0, 0, 0, 0, 0, 0, 0, 0, 0]
     turn = 1 # 1 for X and 0 for O
